@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: paperclip
+  ai:
+    openai:
+      api-key: ${DEEPSEEK_API_KEY}
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
