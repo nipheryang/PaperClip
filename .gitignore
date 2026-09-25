@@ -42,3 +42,4 @@ build/
 .obsidian/
 .idea/workspace.xml
 docs/
+.env
